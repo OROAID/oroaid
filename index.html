@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>OROAID — Helping those in need, together in unity</title>
+  <meta name="description" content="OROAID is a humanitarian organization supporting people in need through relief, community programs, and unity-driven action." />
+  <link rel="icon" href="assets/logo.png" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top bar -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="OROAID Home">
+        <img src="assets/logo.png" alt="OROAID logo" class="brand-logo" />
+        <div class="brand-text">
+          <div class="brand-name">OROAID</div>
+          <div class="brand-tagline"><em>Helping those in need, together in unity</em></div>
+        </div>
+      </a>
+
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#gethelp">Get Help</a>
+        <a href="#donate" class="btn small">Donate</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <h1>Relief, hope, and unity for communities in need.</h1>
+        <p>
+          OROAID supports vulnerable families through emergency relief, community care,
+          and long-term resilience programs—powered by unity and compassion.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="#donate">Donate</a>
+          <a class="btn outline" href="#volunteer">Volunteer</a>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-num">24/7</div>
+            <div class="stat-label">Community Support</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">100%</div>
+            <div class="stat-label">People-first Mission</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num">Unity</div>
+            <div class="stat-label">At the Center</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-card-top">
+          <span class="pill">Emergency Response</span>
+          <span class="pill yellow">Community Programs</span>
+          <span class="pill red">Protection & Care</span>
+        </div>
+        <h3>How we help</h3>
+        <ul class="checklist">
+          <li>Food & essential supplies distribution</li>
+          <li>Support for displaced and vulnerable families</li>
+          <li>Community health and child support initiatives</li>
+          <li>Education support and dignity kits</li>
+        </ul>
+        <a class="btn wide" href="#gethelp">I need help</a>
+        <p class="tiny muted">If you or someone you know needs urgent support, reach out anytime.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust strip -->
+  <section class="strip">
+    <div class="container strip-inner">
+      <div class="strip-item">Transparent & accountable</div>
+      <div class="strip-dot"></div>
+      <div class="strip-item">Community-led</div>
+      <div class="strip-dot"></div>
+      <div class="strip-item">Human dignity first</div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container two-col">
+      <div>
+        <h2>About OROAID</h2>
+        <p>
+          OROAID is a humanitarian organization committed to helping people affected by crisis,
+          poverty, and displacement. We work with local communities to deliver urgent assistance
+          while building long-term pathways to stability.
+        </p>
+        <div class="cards">
+          <div class="card">
+            <h4>Mission</h4>
+            <p>To provide compassionate, fast, and fair support to people in need—together in unity.</p>
+          </div>
+          <div class="card">
+            <h4>Values</h4>
+            <p>Unity • Compassion • Integrity • Community leadership • Accountability</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="image-panel">
+        <div class="image-box">
+          <!-- Replace this with your banner image -->
+          <img src="assets/banner.jpg" alt="OROAID helping communities" />
+        </div>
+        <div class="note">
+          <strong>Want this page in Afaan Oromo too?</strong>
+          <p class="muted tiny">We can make bilingual pages (English + Afaan Oromo) for wider reach.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Programs -->
+  <section class="section alt" id="programs">
+    <div class="container">
+      <h2>Programs</h2>
+      <p class="lead">Focused support where it matters most.</p>
+
+      <div class="grid-3">
+        <article class="card">
+          <h3>Emergency Relief</h3>
+          <p>Rapid food, water, shelter support, and essential items for families in crisis.</p>
+        </article>
+        <article class="card">
+          <h3>Community Care</h3>
+          <p>Health support, child wellbeing, and protection services delivered locally.</p>
+        </article>
+        <article class="card">
+          <h3>Resilience & Recovery</h3>
+          <p>Skills training, education support, and community-led rebuilding initiatives.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Get Help -->
+  <section class="section" id="gethelp">
+    <div class="container">
+      <h2>Get Help</h2>
+      <p class="lead">If you need support, tell us what you need and how to reach you.</p>
+
+      <div class="form-wrap">
+        <form class="form" id="helpForm">
+          <div class="row">
+            <label>Full name
+              <input name="name" required placeholder="Your name" />
+            </label>
+            <label>Phone or WhatsApp
+              <input name="phone" required placeholder="+251 ..." />
+            </label>
+          </div>
+
+          <div class="row">
+            <label>Location (City / Zone)
+              <input name="location" required placeholder="e.g., Adama, Jimma, ..." />
+            </label>
+            <label>Type of need
+              <select name="need" required>
+                <option value="">Select one</option>
+                <option>Food & Essentials</option>
+                <option>Medical Support</option>
+                <option>Shelter</option>
+                <option>Child/Family Support</option>
+                <option>Other</option>
+              </select>
+            </label>
+          </div>
+
+          <label>Message
+            <textarea name="message" rows="5" required placeholder="Describe the situation briefly..."></textarea>
+          </label>
+
+          <button class="btn" type="submit">Send request</button>
+          <p class="tiny muted">This form uses email (mailto) by default. I can connect it to Google Forms or a database later.</p>
+        </form>
+
+        <aside class="callout">
+          <h3>Urgent?</h3>
+          <p>If this is life-threatening or immediate danger, contact local emergency services first.</p>
+          <p class="muted tiny">You can also add a hotline number here once you have it.</p>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donate -->
+  <section class="section alt" id="donate">
+    <div class="container two-col">
+      <div>
+        <h2>Donate</h2>
+        <p class="lead">Your support provides meals, shelter, and hope.</p>
+
+        <div class="cards">
+          <div class="card">
+            <h4>One-time</h4>
+            <p>Support emergency relief efforts and urgent needs.</p>
+            <a class="btn wide" href="#" onclick="alert('Add your donation link here (PayPal, Stripe, bank details).')">Donate now</a>
+          </div>
+
+          <div class="card">
+            <h4>Monthly</h4>
+            <p>Help us plan and sustain programs long-term.</p>
+            <a class="btn outline wide" href="#" onclick="alert('Add your monthly donation link here.')">Become a supporter</a>
+          </div>
+        </div>
+
+        <p class="tiny muted">
+          Tip: If you tell me your donation method (bank, PayPal, etc.), I’ll wire it into the buttons.
+        </p>
+      </div>
+
+      <div class="impact">
+        <h3>What your donation can do</h3>
+        <ul class="checklist">
+          <li>Provide food packages for families</li>
+          <li>Support medical essentials and transport</li>
+          <li>Supply dignity kits and child support</li>
+          <li>Help community-led recovery</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Volunteer -->
+  <section class="section" id="volunteer">
+    <div class="container">
+      <h2>Volunteer</h2>
+      <p class="lead">Join as a volunteer, partner, or community coordinator.</p>
+
+      <div class="grid-3">
+        <div class="card">
+          <h3>Field Volunteer</h3>
+          <p>Support distribution, community outreach, and local coordination.</p>
+        </div>
+        <div class="card">
+          <h3>Remote Volunteer</h3>
+          <p>Help with design, admin, translation, fundraising, or communications.</p>
+        </div>
+        <div class="card">
+          <h3>Partnerships</h3>
+          <p>Work with us as an NGO, community group, or donor partner.</p>
+        </div>
+      </div>
+
+      <a class="btn" href="#contact">Contact us to join</a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section alt" id="contact">
+    <div class="container two-col">
+      <div>
+        <h2>Contact</h2>
+        <p class="lead">We’d love to hear from you.</p>
+
+        <div class="contact-list">
+          <div><strong>Email:</strong> <span class="muted">youremail@domain.com</span></div>
+          <div><strong>Phone/WhatsApp:</strong> <span class="muted">+251 ...</span></div>
+          <div><strong>Location:</strong> <span class="muted">Oromia, Ethiopia</span></div>
+        </div>
+
+        <p class="tiny muted">Replace these placeholders with your real contact details.</p>
+      </div>
+
+      <div class="footer-card">
+        <h3>Transparency</h3>
+        <p>
+          We commit to responsible use of resources and clear reporting to donors and communities.
+          Add your registration number, reports, or policies here when available.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> OROAID. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="#top">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
